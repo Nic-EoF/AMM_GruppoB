@@ -1,0 +1,25 @@
+Libro   ->	id: int
+	nome: varchar
+	immagine: varchar
+	prezzo: float
+	quantità: int
+
+Saldo  ->	id: int
+	soldi: float
+	proprietario: String
+	idProprietario: integer
+
+Cliente ->	id: int
+	nome: varchar
+	pass: varchar
+	idSaldo: int -> collegato a id di Saldo
+
+Venditore -> id: int
+	  nome: varchar
+	  pass: varchar
+	  idSaldo: int -> collegato a id di Saldo
+
+
+
+
+            
