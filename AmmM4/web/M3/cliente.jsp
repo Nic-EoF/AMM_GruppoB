@@ -6,7 +6,7 @@
 
 <%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 
 
@@ -25,6 +25,8 @@
         <a href='M3/login.jsp'>Login</a>
         </div>
         <div class="cont">
+        <label for="filta">Filtra:</label>
+        <input type="filtra" name="Filtra" id="password"/>
         <h2>Prodotti disponibili</h2>
         <table> <!--costruiamo una tabella per i prodotti-->
             <tr>
